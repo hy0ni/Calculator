@@ -56,13 +56,13 @@
 		3A55831D2B4C223000662062 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				3A55831E2B4C223000662062 /* AppDelegate.swift */,
 				3A5583202B4C223000662062 /* SceneDelegate.swift */,
 				3A5583222B4C223000662062 /* ViewController.swift */,
 				3A5583242B4C223000662062 /* Main.storyboard */,
+				3A55832C2B4C223300662062 /* Info.plist */,
+				3A55831E2B4C223000662062 /* AppDelegate.swift */,
 				3A5583272B4C223300662062 /* Assets.xcassets */,
 				3A5583292B4C223300662062 /* LaunchScreen.storyboard */,
-				3A55832C2B4C223300662062 /* Info.plist */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
