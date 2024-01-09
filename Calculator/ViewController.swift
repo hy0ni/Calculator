@@ -25,18 +25,29 @@ class ViewController: UIViewController {
         }else{
             print("title is nil")
         }
-        
     }
     
+    var displayValue: Double {
+        get{
+            return Double(display.text!)!
+        }
+        set{
+            display.text = String(newValue)
+        }
+    }
     
     @IBAction func performOperation(_ sender: UIButton) {
         userIsInTheMiddleOfTyping = false
         if let mathematicalSybol = sender.currentTitle{
             if mathematicalSybol == "π"{
-                display.text = String(Double.pi)
+                displayValue = Double.pi
+               
+            }else if mathematicalSybol == "⎷"{
+                displayValue = sqrt(displayValue)
             }
         }
     }
+    
     
 }
 
